@@ -1,10 +1,124 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
-* {   font-family: "League Spartan", sans-serif;
+body {
+   font-family: "League Spartan", sans-serif;
 
 }
 
-.hero {
+.nav-link {
+    color: #D500F9;
+}
+
+.widht-bg {
+    background-color: #D500F9;
+}
+
+.btn {
+    background-color: #D500F9;
+}
+
+.hero-section {
     background-image: url("../img/des\ .png");
-    height: 90vh;
+    height: 88vh;
+    padding-left: 8rem;
 }
+
+.hero-title  {
+    color: #FFD44E;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    font-weight: bold;
+    
+    
+}
+
+.texto-sec {
+    color: #FFD44E;
+    font-size: 1.5rem;
+}
+
+.card-body {
+    background-color: #FFD44E;
+
+
+}
+
+.card-title {
+    color: #AB24E6;
+    text-align: center;
+}
+
+.card-text {
+    color: #AB24E6;
+    text-align: center;
+}
+
+.card {
+    background-color: #FFD44E;
+
+}
+
+.col-md {
+    margin-bottom: 50px;
+}
+
+.titulo-sub {
+    color: #FFD44E;
+    font-size: 3rem;
+}
+
+.footer {
+    background-color: #FFD44E;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    font-weight: 1000;
+    color: #ab24e6;
+}
+
+.texto-nosotros {
+    color: #FFD44E;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 4rem;
+}
+
+.imagen-nosotros {
+margin-bottom: 2rem;
+padding-right: 3rem;
+}
+
+.accordion-item {
+    background-color: #FFD44E;
+    color: #ab24e6;
+}
+
+.accordion-button {
+    background-color: #AB24E6;
+    color: #FFD44E;
+}
+
+.hero-section-contacto {
+    background-image: url("../img/contactoback.png");
+    height: 88vh;
+    padding-left: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+    
+    
+}
+
+.text-contact {
+    color: #FFD44E;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.form-label {
+    background-color: #AB24E6;
+    color: #FFD44E;
+    font-size: 1.5rem;
+}
+
