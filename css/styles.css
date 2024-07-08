@@ -180,7 +180,7 @@ header {
 
   .galeria {
     max-width: 980px;
-    margin: auto;
+    margin: 50px auto;
     display: grid;
     align-items: stretch;
     grid-template-columns: repeat(3, 1fr);
@@ -198,6 +198,14 @@ header {
   .galeria__img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 
   }
 
+  @media (max-width: 767px) {
+    .galeria {
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: 200px;
+    }
+
+}
