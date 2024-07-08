@@ -1,0 +1,43 @@
+@media (max-width: 767px) {
+    .hero-section, .hero-section-contacto {
+      height: auto;
+      padding: 2rem;
+    }
+    
+    .hero-title, .texto-nosotros, .text-contact {
+      font-size: 1.8rem;
+    }
+    
+    .texto-sec {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .hero-section, .hero-section-contacto {
+      height: 88vh;
+      padding-left: 8rem;
+    }
+    
+    .hero-title, .texto-nosotros, .text-contact {
+      font-size: 2.5rem;
+    }
+    
+    .texto-sec {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+      
+      .texto-nosotros {
+        font-size: 1.5rem;
+      }
+    }
+    
+    @media (min-width: 768px) {
+  
+      .texto-nosotros {
+        font-size: 2rem;
+      }
+    }
