@@ -112,7 +112,11 @@ body {
 }
 
 header {
-    background-color: #D500F9; /* Reemplaza con el color deseado */
+    background-color: #D500F9;
+  }
+
+  main {
+    background-color: #D500F9;
   }
 
 .text-contact {
