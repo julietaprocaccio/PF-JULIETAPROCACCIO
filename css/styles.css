@@ -3,6 +3,9 @@
 
 body {
    font-family: "League Spartan", sans-serif;
+   background-color: #D500F9;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -110,6 +113,9 @@ body {
         display: flex;
         justify-content: center;
         align-items: flex-start;
+        background: linear-gradient(to right, #D500F9, #b531ee);
+        color: white;
+        padding: 2rem;
     
 }
 
@@ -119,6 +125,7 @@ header {
 
   main {
     background-color: #D500F9;
+    
   }
 
 .text-contact {
@@ -244,4 +251,30 @@ header {
 .galeria__item:hover .galeria__overlay {
     transform: translateY(0);
 
+}
+
+.texto-nosotros {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.imagen-nosotros {
+  transition: transform 0.3s ease;
+}
+
+.imagen-nosotros:hover {
+  transform: scale(1.1);
+}
+
+.btn-primary {
+  background-color: #AB24E6;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #D500F9;
 }
