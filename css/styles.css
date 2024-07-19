@@ -181,7 +181,7 @@ header {
   * {
     border: 0;
     margin: 0;
-    box box-sizing: border-box;
+    box-sizing: border-box;
   }
 
   .galeria {
