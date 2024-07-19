@@ -1,5 +1,5 @@
-@import "./base/media-queries";
-
+@import 'mixins/mixins';
+@import 'extends';
 
 .galeria {
     max-width: 980px;
@@ -16,15 +16,15 @@
         background-color: #ab24e6;
         position: relative;
         overflow: hidden;
+        @extend %transition; // Usando placeholder extendible
 
         .galeria__img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-        
-          }
+        }
     
-          .galeria__overlay {
+        .galeria__overlay {
             position: absolute;
             bottom: 0;
             left: 0;
@@ -32,10 +32,8 @@
             height: 100%;
             background-color: rgba(163, 28, 241, 0.582);
             transform: translateY(100%);
-            transition: transform 0.5s ease;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend %transition; // Usando placeholder extendible
+            @include flex-center; // Usando mixin
 
             .galeria__texto {
                 width: 100%;
@@ -45,7 +43,5 @@
                 padding: 1rem;
             }
         } 
-      }
-
-
+    }
 }

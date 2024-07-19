@@ -1,0 +1,110 @@
+@media (max-width: 767px) {
+  .hero-section, .hero-section-contacto {
+    height: auto;
+    padding: 2rem;
+  }
+  .hero-title, .texto-nosotros, .text-contact {
+    font-size: 1.8rem;
+  }
+  .texto-sec {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 768px) {
+  .hero-section, .hero-section-contacto {
+    height: 88vh;
+    padding-left: 8rem;
+  }
+  .hero-title, .texto-nosotros, .text-contact {
+    font-size: 2.5rem;
+  }
+  .texto-sec {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .texto-nosotros {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .texto-nosotros {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .hero-section, .hero-section-contacto {
+    height: auto;
+    padding: 2rem;
+  }
+  .hero-title, .texto-nosotros, .text-contact {
+    font-size: 1.8rem;
+  }
+  .texto-sec {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 768px) {
+  .hero-section, .hero-section-contacto {
+    height: 88vh;
+    padding-left: 8rem;
+  }
+  .hero-title, .texto-nosotros, .text-contact {
+    font-size: 2.5rem;
+  }
+  .texto-sec {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .texto-nosotros {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .texto-nosotros {
+    font-size: 2rem;
+  }
+}
+.galeria {
+  max-width: 980px;
+  margin: 50px auto;
+  display: grid;
+  align-items: stretch;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  justify-self: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.galeria .galeria__item {
+  background-color: #ab24e6;
+  position: relative;
+  overflow: hidden;
+}
+.galeria .galeria__item .galeria__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.galeria .galeria__item .galeria__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: rgba(163, 28, 241, 0.582);
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.galeria .galeria__item .galeria__overlay .galeria__texto {
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 1rem;
+}/*# sourceMappingURL=main.css.map */

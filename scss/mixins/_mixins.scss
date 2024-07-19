@@ -1,0 +1,15 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin transition($property, $duration) {
+  transition: $property $duration ease;
+}
+
+@mixin media-query($query) {
+  @media (#{$query}) {
+    @content;
+  }
+}
