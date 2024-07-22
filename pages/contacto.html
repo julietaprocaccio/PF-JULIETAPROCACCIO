@@ -103,17 +103,18 @@
               <h4 class="text-contact">Envianos tu consulta</h4>
               <form>
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                  <input type="texto" class="form-control" id="exampleFormControlInput1" placeholder="ingresá tu nombre">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="ingresá tu nombre" required>
                 </div>
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Ingresá tu email</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                  <label for="email" class="form-label">Ingresá tu email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com" required>
                 </div>
                 <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Consultá sobre tu invitación</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <label for="mensaje" class="form-label">Consultá sobre tu invitación</label>
+                  <textarea class="form-control" id="mensaje" name="mensaje" rows="3" required></textarea>
                 </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
               </form>
             </div>
           </div>
